@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"atlascode.jira.enabled": false,
+		"atlascode.onlineCheckerUrls": [
+			"https://bitbucket.org"
+		]
+	}
+}

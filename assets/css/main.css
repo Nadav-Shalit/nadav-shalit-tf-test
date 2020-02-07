@@ -1,0 +1,142 @@
+body {
+    background-color: #f3f3f3;
+}
+#crdConatiner.show-form{
+    opacity: 0.2;
+    pointer-events: none; 
+}
+div.clearfix.form{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    background-color: #f2f2f2;
+    border: solid 1px;
+    width: 425px;
+    height: 210px;
+    font-size: 12px;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -212px;    
+}
+div.clearfix.form button.close{
+    padding-right: 10px;
+}
+div.form div.action{
+    position: absolute;
+    top: 172px;
+    right: 40%;
+}
+div.crd.clearfix.template{
+    display: none !important;
+}    
+div.add-crd{   
+    margin: 0.3rem 0.5rem;
+    width: 180px;
+    height: auto;
+    padding: 10px;    
+   
+}
+div.add-crd:hover{
+   background-color:white ;
+}
+
+div.add-action{
+    
+    height: 150px;
+    background-image: url(/TF/asstes/img/add-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+div.crd {
+    width: 425px;
+    background-color: white;
+    min-height: 170px;
+    margin: 0.3rem 0.5rem;
+    display: inline-flex!important;
+    color: #696969; 
+    font-size: 12px;
+    padding: 7px;
+    position: relative;
+    }
+    div.crd.updated{
+        background-color:#a6d6db;
+    }
+    div.img-title{        
+        width: 200px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    div.img-title img {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin: 8px !important;
+       
+    }
+    div.body{           
+        width: 100%;
+        padding-left: 20px;
+    }
+    div.name {
+        text-transform: capitalize;
+        font-size: 16px;  
+        font-weight: 700;
+    }
+    div.cords {
+        padding-bottom: 25px;  
+        cursor: pointer;      
+    }
+    div.cords span.baloon {
+        display: inline-block;
+        background-image: url(/TF/asstes/img/sprite-icone.png);               
+        height: 16px;
+        width: 16px;
+        background-repeat: no-repeat;
+        
+        background-position: -22px -70px;
+    }
+    div.company {    
+        font-size: 13px;
+        font-weight: 700;
+        
+    }
+    div.phone span{
+        padding-left: 3px;
+    }
+    div.crd div.action{
+        position: absolute;
+        top: 145px;
+        right: 5px;
+        cursor: pointer;
+    }
+    div.action a{
+        display: inline-block;
+        background-image: url(/TF/asstes/img/sprite-icone.png);
+        height: 16px;
+        width: 16px;
+        background-repeat: no-repeat;
+    }
+    div.action a.delete{        
+        background-position: -455px 0px;
+    }
+    div.action a.edit{
+        background-position: 0 -72px;
+    }
+     input {
+        font-size: 12px;
+        margin: 2px;
+        border: 1px solid lightgray;
+        padding-left: 2px;
+        text-transform: capitalize;
+     }
+     
+     input.error {
+        border:solid 1px red !important;        
+     }
+     div.action button{
+        text-transform: capitalize;
+     }
